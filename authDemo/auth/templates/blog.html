@@ -1,0 +1,10 @@
+<html>
+
+
+<form method="post" action="{% url 'auth:blogwriter' %}">
+    {% csrf_token %}
+<input type="textarea" name = "b" > 
+<input type="submit">
+</form>
+
+</html>

@@ -1,0 +1,13 @@
+
+<html>
+{{ user.username }}
+<form method="post">
+{% csrf_token %}
+    <input type = "text" name="user" >
+    <input type = "password" name="pass">
+    
+    <input type="submit">
+
+</form>
+
+</html>

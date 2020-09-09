@@ -1,0 +1,17 @@
+<html>
+
+<form method="post">
+{% csrf_token %}
+    <input type = "text" name="user" >
+    <input type = "password" name="pass">
+    <input type = "email" name="e">
+    <select name="type" id="cars">
+        <option value="admin">admin</option>
+        <option value="normal">normal</option>
+        <option value="nothing">nothing</option>
+      </select>
+    <input type="submit">
+
+</form>
+
+</html>
